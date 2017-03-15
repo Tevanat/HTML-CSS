@@ -1,0 +1,12 @@
+.inlinenav{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav{
+  position: absolute;
+  right: 35px;
+  top: 28px;
+
+
+}

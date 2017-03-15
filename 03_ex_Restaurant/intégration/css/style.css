@@ -1,8 +1,32 @@
 body{
-background-color:#C8E6C9 ;
+background-color:white;
 }
 h1{
-  font-family:
+  font-family:'caveat brush',cursive;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin bottom: 8px;
+  top: 0px;
+  position: relative;
+}
+h1 span{
+  font-size: 18px;
+  display: inline;
+  vertical-align: top;
+  position: relative;
+}
+h1 span:after{
+  position: absolute;
+  content: '-';
+  top: 10px;
+  left: 0px;
+}
+#trait{
+  margin-left: 40px;
+  margin-top: -21px;
+  padding-bottom: 6px;
+
+
 }
 .inlineheader{
   display: inline-block;
@@ -20,14 +44,7 @@ header{
   background-image: url('../img/capture.PNG');
   padding-bottom: 200px;
 }
-p{
-  overflow: hidden;
-  width: 400px;
-}
-img{
-  position:absolute;;
-  padding-left: 20px;
-}
+
 #logo img{
   position: absolute;
   display: block;
@@ -39,6 +56,7 @@ img{
   position: relative;
   display: block;
   margin: auto;
+  padding-top: 140px;
 }
 #triangle-topright {
 	width: 0;
@@ -47,9 +65,58 @@ img{
 	border-left: 150px solid transparent;
   position: relative;
 }
+
+section{
+  background-color: white;
+}
+
+p{
+  padding : 0px 70px;
+}
+
 .firstblok{
+  text-align: center;
   display: inline-block;
+  vertical-align: middle;
+}
+.tailleggs{
+  width: 100%;
+}
 
+.L_pose{
+  width: 30%;
+}
+.R_pose{
+  width: 70%;
+}
 
-
+#asperge{
+  transform: scaleX(-1);
+  width: 100%;
+}
+section > div {
+  height: 550px;
+  overflow: hidden;
+}
+footer{
+  padding-bottom: 300px;
+  background-image: url(../img/Capturefooter.PNG);
+  width: 100%;
+  position: relative;
+}
+footer .fa{
+  color: red;
+  transition: 2s;
+}
+footer .fa:hover{
+  color: blue;
+  background-color: yellow;
+}
+footer > div {
+  display: inline;
+  vertical-align: middle;
+  right: 120px;
+  position: absolute;
+  margin-right: 20px;
+  bottom: 50px;
 }
