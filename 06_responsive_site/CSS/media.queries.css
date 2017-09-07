@@ -1,0 +1,32 @@
+body{
+  background-color: #E8451C;
+  color: white;
+}
+code {
+  background-color: #E8749F;
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+      background-color: #E89608;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+      background-color: #9DE811;
+      }
+    img {
+      display: none;
+    }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: #43E89B;
+    }
+    h1 {
+      color: #E89608;
+    }
+}
