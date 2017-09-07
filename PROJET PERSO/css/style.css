@@ -1,0 +1,52 @@
+/*-----------------------------BODY----------------------------------*/
+body{
+    background-image: url(../img/autoroute2.jpg);
+    background-size: cover;
+}
+.row{
+    margin: 0 !important;
+}
+/*-----------------------------NAV ----------------------------------*/
+nav{
+    
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li{
+    font-family: 'Orbitron', sans-serif;
+}
+
+nav ul button{
+    float: right;
+}
+nav ul li a{
+    
+}
+
+h1{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/*-----------------------------CONTAINER----------------------------------*/
+.container{
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+
+/*-----------------------------HEADER ----------------------------------*/
+
+h2{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
